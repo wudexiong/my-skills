@@ -91,4 +91,11 @@ video-to-text/
     └── .venv/             # 自举创建，勿提交（.gitignore 排除）
 ```
 
+## 路径说明（重要）
+
+- 本技能可能通过 junction 链接暴露（如 `~/.agents/skills/video-to-text` → `D:\tools\skills\video-to-text`），**链接对文件访问透明**：从链接路径进入和真实目录进入效果完全一样；
+- **所有命令一律用相对路径**（`scripts/...`），先 `cd` 到技能目录再执行，不要写死绝对路径（技能要在任何环境可移植）；
+- 排错时如需解析真实目录：Git Bash 用 `readlink -f <技能目录>`，PowerShell 用 `(Get-Item <技能目录>).Target`；
+- 自举创建的环境在 `scripts/.venv`（通过链接访问也无差别）。
+
 **隐私**：cookies.txt 是账号凭证，绝不提交到公开仓库（.gitignore 已排除）。
