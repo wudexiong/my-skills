@@ -8,12 +8,30 @@
 |---|---|---|
 | [video-to-text](video-to-text/) | 视频链接（抖音为主）→ 完整文字稿 → 知识库入库 | ✅ 可用 |
 
-## 使用方式（本地同步）
+## 使用方式
 
-技能库 clone 到独立目录，技能目录用 junction 链接到 ZCode 技能发现目录：
+### 方式一：官方 CLI（推荐，标准流程）
+
+本技能库兼容 [skills 官方生态](https://skills.sh/)（`npx skills`），支持发现、选择、安装、更新：
 
 ```bash
-# 首次（Windows，管理员或普通终端均可，junction 不需要管理员）
+# 列出仓库里的技能
+npx skills add wudexiong/my-skills --list
+
+# 选择安装指定技能（-g 全局，-y 跳过确认）
+npx skills add wudexiong/my-skills --skill video-to-text -g -y
+
+# 简写格式
+npx skills add wudexiong/my-skills@video-to-text -g -y
+
+# 更新已安装的技能
+npx skills update
+```
+
+### 方式二：本地 git + junction（本项目使用）
+
+```bash
+# 首次（Windows）
 git clone https://github.com/wudexiong/my-skills.git D:\tools\skills
 mklink /J "C:\Users\Administrator\.agents\skills\video-to-text" "D:\tools\skills\video-to-text"
 
