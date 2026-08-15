@@ -1,0 +1,8 @@
+# 凭证与隐私
+**/cookies.txt
+
+# Python 环境
+**/.venv/
+
+# 输出与缓存
+**/output/
