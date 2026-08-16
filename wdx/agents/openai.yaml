@@ -1,0 +1,4 @@
+interface:
+  display_name: "wdx"
+  short_description: "唯一入口：wdx 我要做 X → 自动分流到对应工作流"
+  default_prompt: "Use $wdx to decide which workflow fits this task and follow it."

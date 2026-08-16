@@ -122,13 +122,17 @@
       "source": "wudexiong/my-skills (自研)",
       "computedHash": "caf3f9ee25940a3b"
     },
-    "way": {
-      "source": "wudexiong/my-skills (自研)",
-      "computedHash": "d7517c3dae17a4c1"
-    },
     "wayfinder": {
       "source": "mattpocock/skills",
       "computedHash": "d33e2141f7c8bbfd"
+    },
+    "wdx": {
+      "source": "wudexiong/my-skills (自研)",
+      "computedHash": "e6f1668b2a4ac3ed"
+    },
+    "wdx-init": {
+      "source": "wudexiong/my-skills (自研)",
+      "computedHash": "14b6be1f66df88ea"
     }
   }
 }

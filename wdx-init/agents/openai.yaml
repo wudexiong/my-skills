@@ -1,0 +1,4 @@
+interface:
+  display_name: "wdx-init"
+  short_description: "初始化工作流：新项目/新功能全流程（查→问→定→切→干→审）"
+  default_prompt: "Use $wdx-init for the full init workflow: preflight → grill → spec → tickets → implement → review."

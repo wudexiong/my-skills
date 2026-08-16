@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updatedAt": "2026-08-16",
-  "count": 32,
+  "count": 33,
   "skills": [
     {
       "name": "advise-project-approach",
@@ -244,20 +244,28 @@
       "path": "video-to-text/SKILL.md"
     },
     {
-      "name": "way",
-      "description": "总入口。用户说\"我要做 X\"时调用此技能——自动判断场景，分流到对应工作流。一个词记住所有流程。也处理\"wayfinder/flow/帮我做/开始\"等触发词。",
-      "whenToUse": "",
-      "tags": [],
-      "source": "",
-      "path": "way/SKILL.md"
-    },
-    {
       "name": "wayfinder",
       "description": "Plan a huge chunk of work — more than one agent session can hold — as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the destination is clear.",
       "whenToUse": "",
       "tags": [],
       "source": "",
       "path": "wayfinder/SKILL.md"
+    },
+    {
+      "name": "wdx",
+      "description": "唯一入口（总路由）。用户说\"wdx 我要做 X\"时调用——自动判断场景，分流到对应 wdx-* 工作流。一个词记住所有流程。",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "wdx/SKILL.md"
+    },
+    {
+      "name": "wdx-init",
+      "description": "初始化工作流（新项目/新功能）。封装完整流程：preflight 查轮子 → grill 盘问 → spec 规格 → tickets 切片 → implement 实现 → review 审查。wdx 入口分流到此时加载本技能。",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "wdx-init/SKILL.md"
     }
   ]
 }

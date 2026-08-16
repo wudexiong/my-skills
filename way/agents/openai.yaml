@@ -1,4 +1,0 @@
-interface:
-  display_name: "Way"
-  short_description: "总入口：我要做 X → 自动分流到对应工作流"
-  default_prompt: "Use $way to decide which workflow fits this task and follow it."
