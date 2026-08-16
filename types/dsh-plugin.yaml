@@ -1,0 +1,22 @@
+name: dsh-plugin
+version: 1.0.0
+extends: base
+description: DeepSeek Harness 插件项目（cordis）
+rules_md: |
+  # DSH 插件项目规则
+
+  ## 结构规范
+  - cordis 插件：`inject` 声明依赖服务，`apply(ctx, config)` 实现逻辑，`Config` 用 schemastery schema
+  - 插件入口在包根 `lib/index.js`（或 src/），`package.json` 的 exports 暴露入口
+  - 可组合：`ctx.plugin(child)` 包小插件，每个插件独立可装/可禁/可替换
+
+  ## 技能约定
+  - 本项目默认技能：gh-cli（GitHub 操作）、neural-plan（规格化）
+  - 新功能开工前先跑 preflight 查轮子
+
+  ## 生命周期
+  - 本项目声明 lifecycle: growing；发布/归档时更新 dsh.project.yml
+skills:
+  default:
+    - gh-cli
+    - neural-plan

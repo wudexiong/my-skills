@@ -1,0 +1,22 @@
+name: base
+version: 1.0.0
+description: 所有项目共有的规则基线
+agents_md: |
+  # AGENTS.md — 工作区规则
+
+  本文件是**稳定指针**，由 dsh-lifecycle 生成，内容几乎永不变。
+  规则本体在 `.dsh/generated/rules.md`（自动维护），技能清单在 `.dsh/generated/skills.lock`。
+
+  - 任务开始前：查 `.dsh/generated/skills.lock` 和全局技能库 `~/.agents/skills/`
+  - 命中技能 → 直接加载 SKILL.md 使用；没有 → 按 preflight 查 DSH 生态/GitHub/npm → 都没有才自研
+  - 规则更新：dsh-lifecycle 在会话启动时自动 sync（可 `dsh lifecycle sync` 手动触发）
+  - 本项目声明：`dsh.project.yml`（type / rules / skills / lifecycle）
+
+rules_md: |
+  # 项目规则（自动生成，勿手改——改 `dsh.project.yml` 或种子模板）
+
+  ## 通用规则
+  1. 任何任务开始前，先查技能库，命中即用，不重复造轮子
+  2. 没有现成技能 → 按 preflight（全局技能库 workflows/preflight.md）查生态 → 都没有才自研
+  3. 自研成果若可复用，回馈到全局技能库（Feed）
+  4. 生成物在 .dsh/generated/，其余为用户区，协调器永不触碰
