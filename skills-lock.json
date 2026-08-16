@@ -137,6 +137,22 @@
     "wdx-evolve": {
       "source": "wudexiong/my-skills (自研)",
       "computedHash": "77fc28776c3e1103"
+    },
+    "firecrawl-deep-research": {
+      "source": "firecrawl/firecrawl-workflows",
+      "computedHash": "dfd224ee3eed753b"
+    },
+    "firecrawl-research-papers": {
+      "source": "firecrawl/firecrawl-workflows",
+      "computedHash": "e93996e2209ad592"
+    },
+    "firecrawl-market-research": {
+      "source": "firecrawl/firecrawl-workflows",
+      "computedHash": "9ec1040c5abdead2"
+    },
+    "firecrawl-lead-research": {
+      "source": "firecrawl/firecrawl-workflows",
+      "computedHash": "1b52c42404c564ae"
     }
   }
 }

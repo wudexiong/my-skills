@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updatedAt": "2026-08-16",
-  "count": 34,
+  "count": 38,
   "skills": [
     {
       "name": "advise-project-approach",
@@ -50,6 +50,38 @@
       "tags": [],
       "source": "",
       "path": "domain-modeling/SKILL.md"
+    },
+    {
+      "name": "firecrawl-deep-research",
+      "description": "|",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "firecrawl-deep-research/SKILL.md"
+    },
+    {
+      "name": "firecrawl-lead-research",
+      "description": "Produce pre-meeting lead intelligence briefs with Firecrawl. Use when the user needs company research, person research, recent news, talking points, pain points, or outreach preparation before a sales call, partnership meeting, investor conversation, or customer interview.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "firecrawl-lead-research/SKILL.md"
+    },
+    {
+      "name": "firecrawl-market-research",
+      "description": "Extract market, financial, earnings, industry, and company metrics with Firecrawl. Use when the user asks for market research, industry trends, public company data, financial comparisons, earnings research, or structured market reports.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "firecrawl-market-research/SKILL.md"
+    },
+    {
+      "name": "firecrawl-research-papers",
+      "description": "Find and synthesize research papers, whitepapers, PDFs, technical reports, and academic sources with Firecrawl Research, using semantic paper search, related-paper expansion, and in-body verification over Firecrawl's paper index — largely biomedical and life-science literature from PubMed, bioRxiv, and medRxiv, plus arXiv preprints in CS, physics, and math. Use when the user wants a literature review, systematic review, survey of studies, paper summary, research landscape, or sourced synthesis from scholarly and industry publications, including clinical, drug, gene, disease, epidemiology, and public-health topics. Prefer this over a general web-research workflow whenever the evidence base is published papers rather than web pages.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "firecrawl-research-papers/SKILL.md"
     },
     {
       "name": "gh-cli",

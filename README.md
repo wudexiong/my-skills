@@ -68,6 +68,7 @@ node D:\tools\skills\scripts\feed.mjs <项目目录> --antipattern "xxx 不该�
 | 有 bug | debug（triage → diagnosing → TDD） |
 | 发布 | release（版本+changelog+PR） |
 | 收尾 | archive（归档+经验回流） |
+| 深度调研/查论文 | firecrawl-deep-research / firecrawl-research-papers |
 
 技能更新：`node scripts/skills-update.mjs`（按 skills-lock.json 同步上游最新版）。
 

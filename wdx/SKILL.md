@@ -19,6 +19,7 @@ description: 唯一入口（总路由）。用户说"wdx 我要做 X"时调用�
 | 做完了 / 收尾 / 归档 | 收尾 | **wdx-archive**（归档 + 经验回流） |
 | 换会话 / 交接 | 交接 | **handoff** |
 | 技能不灵 / 要改进 | 进化 | **wdx-evolve**（诊断→改进→验证→提交） |
+| 深度调研 / 查论文 / 市场分析 | 调研 | **firecrawl-deep-research**（报告级）/ **firecrawl-research-papers**（论文） |
 | 不确定 / 都没对上 | 兜底 | **wdx-init**（或先问一句） |
 
 ## 执行原则
