@@ -27,6 +27,18 @@
 node scripts/reindex.mjs
 ```
 
+
+## 🧠 经验回流（Feed）
+
+项目收尾时，把经验写回全局种子库，新项目自动继承：
+
+```bash
+# 在项目里运行（自动扫描 .neural/knowledge/ + 手动补充）
+node D:\tools\skills\scripts\feed.mjs <项目目录> --antipattern "xxx 不该用 yyy" --lesson "xxx 用 yyy 效果好"
+```
+
+经验存于 `knowledge/ANTIPATTERNS.md`（反模式）和 `knowledge/LESSONS.md`（成功经验）。
+
 ## 命令（自同步脚手架）
 
 | 命令 | 作用 |
