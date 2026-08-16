@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-16",
+  "count": 12,
+  "skills": [
+    {
+      "name": "advise-project-approach",
+      "description": "Research and advise on the best way to approach a software project, including architecture, tech stack, implementation strategy, pricing/operating-cost tradeoffs, benchmark research, and comparisons with similar real-world projects. Use before building, mid-build, or after completion when the user asks for project strategy, optimal approach, research comparables, similar projects, stack selection, vendor/service choice, repo analysis, architecture critique, implementation feedback, or a prioritized improvement plan. Avoid for narrow single-bug debugging or isolated file edits unless the user asks for broader project direction.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "advise-project-approach/SKILL.md"
+    },
+    {
+      "name": "gh-cli",
+      "description": "This skill should be used when working with GitHub CLI (gh) for any task including code search, workflow debugging, GitHub Pages deployment, or general GitHub operations. Use this skill for enhanced code search capabilities, analyzing failed workflow runs, managing GitHub Pages, or any gh command usage.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "gh-cli/SKILL.md"
+    },
+    {
+      "name": "github-actions-writer",
+      "description": "This skill should be used when users need to create, modify, optimize, or troubleshoot GitHub Actions CI/CD workflows. Use when users ask about automating builds, tests, deployments, or any GitHub Actions-related tasks. Triggers include requests like \"create a CI workflow\", \"deploy to AWS\", \"automate testing\", \"setup GitHub Actions\", or when debugging workflow failures.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "github-actions-writer/SKILL.md"
+    },
+    {
+      "name": "neural-address-review",
+      "description": "Apply approved fixes from a previous review.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "neural-address-review/SKILL.md"
+    },
+    {
+      "name": "neural-archive",
+      "description": "Archive a freshly verified feature and refresh project knowledge",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "neural-archive/SKILL.md"
+    },
+    {
+      "name": "neural-execute",
+      "description": "Implement an approved product spec with just-in-time planning, honest behavior-first evidence, and a durable handoff",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "neural-execute/SKILL.md"
+    },
+    {
+      "name": "neural-help",
+      "description": "Route users through the Neural workflow and show the right starting command",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "neural-help/SKILL.md"
+    },
+    {
+      "name": "neural-interview",
+      "description": "Interview a feature request into testable acceptance, domain language, decision boundaries, and selective ADRs",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "neural-interview/SKILL.md"
+    },
+    {
+      "name": "neural-learn",
+      "description": "Rebuild project knowledge from verified archived features with provenance",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "neural-learn/SKILL.md"
+    },
+    {
+      "name": "neural-plan",
+      "description": "Synthesize approved discovery into a stable, shareable product spec with public contracts and testing decisions",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "neural-plan/SKILL.md"
+    },
+    {
+      "name": "neural-review",
+      "description": "Review implementation and test evidence against the approved feature goal, then seal the reviewed state",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "neural-review/SKILL.md"
+    },
+    {
+      "name": "video-to-text",
+      "description": "提取视频链接的完整文字稿并分析入库（抖音为主，B站/YouTube 等 yt-dlp 支持的平台也可）。当用户丢来任何视频链接（抖音短链 v.douyin.com、完整链接等）并表示想要\"文案/文字稿/内容/讲了什么/提取\"时使用——即使没明说\"提取\"，例如\"你看看这个视频讲了啥\"\"帮我把这条视频内容整理一下\"。本技能自包含：工具代码随技能分发（scripts/），首次调用时自动检查并安装环境。本项目使用时文字稿输出到项目 data/raw/ 并做知识库入库。",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "video-to-text/SKILL.md"
+    }
+  ]
+}

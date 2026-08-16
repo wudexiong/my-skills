@@ -19,6 +19,14 @@
 | [gh-cli](gh-cli/) | GitHub CLI 高级用法：代码搜索、workflow 调试、Pages 部署 | ✅ 可用 |
 | [github-actions-writer](github-actions-writer/) | GitHub Actions workflow 生成/优化/排障 | ✅ 可用 |
 
+## 总索引（index.json）
+
+`scripts/reindex.mjs` 自动扫描全部技能生成 `index.json`（name/description/来源），供 Agent 快速查询筛选。新增/修改技能后运行：
+
+```bash
+node scripts/reindex.mjs
+```
+
 ## 使用方式
 
 ### 方式一：官方 CLI（推荐，标准流程）
