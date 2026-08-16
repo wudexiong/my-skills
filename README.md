@@ -7,6 +7,17 @@
 | 技能 | 功能 | 状态 |
 |---|---|---|
 | [video-to-text](video-to-text/) | 视频链接（抖音为主）→ 完整文字稿 → 知识库入库 | ✅ 可用 |
+| [advise-project-approach](advise-project-approach/) | 开工前调研同类项目/权衡/成本，防重复造轮子 | ✅ 可用 |
+| [neural-interview](neural-interview/) | 澄清需求 → CONTEXT.md（neural 流程第一步） | ✅ 可用 |
+| [neural-plan](neural-plan/) | 需求 → 产品规格 PLAN.md | ✅ 可用 |
+| [neural-execute](neural-execute/) | 按规格实现并留证据 EXECUTION.md | ✅ 可用 |
+| [neural-review](neural-review/) | 对照验收核查实现 REVIEW.md | ✅ 可用 |
+| [neural-address-review](neural-address-review/) | 应用上一轮评审通过的修复 | ✅ 可用 |
+| [neural-archive](neural-archive/) | 新鲜度校验并归档已验证功能 | ✅ 可用 |
+| [neural-learn](neural-learn/) | 从归档重建项目知识 | ✅ 可用 |
+| [neural-help](neural-help/) | neural 工作流路由与启动命令 | ✅ 可用 |
+| [gh-cli](gh-cli/) | GitHub CLI 高级用法：代码搜索、workflow 调试、Pages 部署 | ✅ 可用 |
+| [github-actions-writer](github-actions-writer/) | GitHub Actions workflow 生成/优化/排障 | ✅ 可用 |
 
 ## 使用方式
 
