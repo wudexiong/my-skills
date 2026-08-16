@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updatedAt": "2026-08-16",
-  "count": 12,
+  "count": 32,
   "skills": [
     {
       "name": "advise-project-approach",
@@ -10,6 +10,46 @@
       "tags": [],
       "source": "",
       "path": "advise-project-approach/SKILL.md"
+    },
+    {
+      "name": "ask-matt",
+      "description": "Ask which skill or flow fits your situation. A router over the skills in this repo.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "ask-matt/SKILL.md"
+    },
+    {
+      "name": "batch-grill-me",
+      "description": "A relentless interview that asks every frontier question at once, round by round.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "batch-grill-me/SKILL.md"
+    },
+    {
+      "name": "code-review",
+      "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/spec asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\".",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "code-review/SKILL.md"
+    },
+    {
+      "name": "diagnosing-bugs",
+      "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "diagnosing-bugs/SKILL.md"
+    },
+    {
+      "name": "domain-modeling",
+      "description": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "domain-modeling/SKILL.md"
     },
     {
       "name": "gh-cli",
@@ -26,6 +66,46 @@
       "tags": [],
       "source": "",
       "path": "github-actions-writer/SKILL.md"
+    },
+    {
+      "name": "grill-me",
+      "description": "A relentless interview to sharpen a plan or design.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "grill-me/SKILL.md"
+    },
+    {
+      "name": "grill-with-docs",
+      "description": "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "grill-with-docs/SKILL.md"
+    },
+    {
+      "name": "grilling",
+      "description": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "grilling/SKILL.md"
+    },
+    {
+      "name": "handoff",
+      "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "handoff/SKILL.md"
+    },
+    {
+      "name": "implement",
+      "description": "Implement a piece of work based on a spec or set of tickets.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "implement/SKILL.md"
     },
     {
       "name": "neural-address-review",
@@ -92,12 +172,92 @@
       "path": "neural-review/SKILL.md"
     },
     {
+      "name": "prototype",
+      "description": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "prototype/SKILL.md"
+    },
+    {
+      "name": "research",
+      "description": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "research/SKILL.md"
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "description": "Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "setup-matt-pocock-skills/SKILL.md"
+    },
+    {
+      "name": "tdd",
+      "description": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "tdd/SKILL.md"
+    },
+    {
+      "name": "to-questionnaire",
+      "description": "Turn a decision you can't fully answer into a questionnaire for someone else to fill in.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "to-questionnaire/SKILL.md"
+    },
+    {
+      "name": "to-spec",
+      "description": "Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "to-spec/SKILL.md"
+    },
+    {
+      "name": "to-tickets",
+      "description": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in one file per ticket locally, or native blocking links on a real tracker.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "to-tickets/SKILL.md"
+    },
+    {
+      "name": "triage",
+      "description": "Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "triage/SKILL.md"
+    },
+    {
       "name": "video-to-text",
       "description": "提取视频链接的完整文字稿并分析入库（抖音为主，B站/YouTube 等 yt-dlp 支持的平台也可）。当用户丢来任何视频链接（抖音短链 v.douyin.com、完整链接等）并表示想要\"文案/文字稿/内容/讲了什么/提取\"时使用——即使没明说\"提取\"，例如\"你看看这个视频讲了啥\"\"帮我把这条视频内容整理一下\"。本技能自包含：工具代码随技能分发（scripts/），首次调用时自动检查并安装环境。本项目使用时文字稿输出到项目 data/raw/ 并做知识库入库。",
       "whenToUse": "",
       "tags": [],
       "source": "",
       "path": "video-to-text/SKILL.md"
+    },
+    {
+      "name": "way",
+      "description": "总入口。用户说\"我要做 X\"时调用此技能——自动判断场景，分流到对应工作流。一个词记住所有流程。也处理\"wayfinder/flow/帮我做/开始\"等触发词。",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "way/SKILL.md"
+    },
+    {
+      "name": "wayfinder",
+      "description": "Plan a huge chunk of work — more than one agent session can hold — as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the destination is clear.",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "wayfinder/SKILL.md"
     }
   ]
 }

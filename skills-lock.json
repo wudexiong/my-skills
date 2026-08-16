@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-16T13:57:54.258Z",
+  "skills": {
+    "advise-project-approach": {
+      "source": "AaravKashyap12/advise-project-approach",
+      "computedHash": "aaaabcc3e665c3d5"
+    },
+    "ask-matt": {
+      "source": "mattpocock/skills",
+      "computedHash": "3d38910535f5f01e"
+    },
+    "batch-grill-me": {
+      "source": "mattpocock/skills",
+      "computedHash": "7ca3ecc5c0214c50"
+    },
+    "code-review": {
+      "source": "mattpocock/skills",
+      "computedHash": "7b2611d766ed7b9f"
+    },
+    "diagnosing-bugs": {
+      "source": "mattpocock/skills",
+      "computedHash": "7a0779480f323a66"
+    },
+    "domain-modeling": {
+      "source": "mattpocock/skills",
+      "computedHash": "152e2c97239affb1"
+    },
+    "gh-cli": {
+      "source": "JamesPrial/github-skills",
+      "computedHash": "8da0ac2363bfccb4"
+    },
+    "github-actions-writer": {
+      "source": "JamesPrial/github-skills",
+      "computedHash": "1bbf691615d731ba"
+    },
+    "grill-me": {
+      "source": "mattpocock/skills",
+      "computedHash": "6189dfceb7304a6e"
+    },
+    "grill-with-docs": {
+      "source": "mattpocock/skills",
+      "computedHash": "610d091047bcfb9d"
+    },
+    "grilling": {
+      "source": "mattpocock/skills",
+      "computedHash": "fa5c1e5ee76b1c8f"
+    },
+    "handoff": {
+      "source": "mattpocock/skills",
+      "computedHash": "57c9f1f392d7352c"
+    },
+    "implement": {
+      "source": "mattpocock/skills",
+      "computedHash": "6d3fd9e83b8f36e5"
+    },
+    "neural-address-review": {
+      "source": "wudexiong/my-skills (自研)",
+      "computedHash": "07e9f493c5a151cb"
+    },
+    "neural-archive": {
+      "source": "wudexiong/my-skills (自研)",
+      "computedHash": "cf6f38e2b40021eb"
+    },
+    "neural-execute": {
+      "source": "wudexiong/my-skills (自研)",
+      "computedHash": "51ca56157b1972db"
+    },
+    "neural-help": {
+      "source": "wudexiong/my-skills (自研)",
+      "computedHash": "62d0f33693b107b4"
+    },
+    "neural-interview": {
+      "source": "wudexiong/my-skills (自研)",
+      "computedHash": "d54bc94829822a33"
+    },
+    "neural-learn": {
+      "source": "wudexiong/my-skills (自研)",
+      "computedHash": "886e9a3ad4b14d5b"
+    },
+    "neural-plan": {
+      "source": "wudexiong/my-skills (自研)",
+      "computedHash": "8d21d9ff225ab49f"
+    },
+    "neural-review": {
+      "source": "wudexiong/my-skills (自研)",
+      "computedHash": "8c584a84d6381721"
+    },
+    "prototype": {
+      "source": "mattpocock/skills",
+      "computedHash": "2579ecf89a7fb7e7"
+    },
+    "research": {
+      "source": "mattpocock/skills",
+      "computedHash": "af378829f015775a"
+    },
+    "setup-matt-pocock-skills": {
+      "source": "mattpocock/skills",
+      "computedHash": "310fb1a73c0467e6"
+    },
+    "tdd": {
+      "source": "mattpocock/skills",
+      "computedHash": "5e6b9c16b547113e"
+    },
+    "to-questionnaire": {
+      "source": "mattpocock/skills",
+      "computedHash": "8e7f9ed8d7b2e66b"
+    },
+    "to-spec": {
+      "source": "mattpocock/skills",
+      "computedHash": "5d26479544b08048"
+    },
+    "to-tickets": {
+      "source": "mattpocock/skills",
+      "computedHash": "5ecdf1d4df8a360e"
+    },
+    "triage": {
+      "source": "mattpocock/skills",
+      "computedHash": "91e2817ecb688c4d"
+    },
+    "video-to-text": {
+      "source": "wudexiong/my-skills (自研)",
+      "computedHash": "caf3f9ee25940a3b"
+    },
+    "way": {
+      "source": "wudexiong/my-skills (自研)",
+      "computedHash": "d7517c3dae17a4c1"
+    },
+    "wayfinder": {
+      "source": "mattpocock/skills",
+      "computedHash": "d33e2141f7c8bbfd"
+    }
+  }
+}

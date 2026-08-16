@@ -36,6 +36,20 @@ node scripts/reindex.mjs
 
 > 自同步原理：技能本体走全局 junction（pull 即全项目生效），项目 AGENTS.md 是指针（永不漂移），更新永远发生在全局。
 
+## 🧭 总入口 way（先读这个）
+
+**一个词记住所有流程**：遇到任何事，说 `way 我要做 X`，自动分流到对应工作流。
+
+| 场景 | 工作流 |
+|---|---|
+| 新项目/新功能 | init（preflight → grill → spec → tickets → implement → review） |
+| 太大太模糊 | wayfinder（画决策地图） |
+| 有 bug | debug（triage → diagnosing → TDD） |
+| 发布 | release（版本+changelog+PR） |
+| 收尾 | archive（归档+经验回流） |
+
+技能更新：`node scripts/skills-update.mjs`（按 skills-lock.json 同步上游最新版）。
+
 ## 使用方式
 
 ### 方式一：官方 CLI（推荐，标准流程）
