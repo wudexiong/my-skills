@@ -1,0 +1,4 @@
+interface:
+  display_name: "wdx-evolve"
+  short_description: "技能/流程自进化：诊断→改进→验证→提交"
+  default_prompt: "Use $wdx-evolve to improve skills when they fail or underperform."

@@ -28,6 +28,15 @@ node scripts/reindex.mjs
 ```
 
 
+
+## 🔄 自进化（wdx-evolve）
+
+系统自己升级自己：
+
+- **经验门控**：项目收尾 → `feed.mjs`（三标准：跨任务可复用/重复≥2次/稳定）→ inbox → `digest.mjs` → wiki
+- **技能进化**：技能不灵 → `wdx-evolve`（诊断→改进→验证→提交，版本+1）
+- **上游同步**：`skills-update.mjs` 拉 mattpocock/superpowers 最新版
+
 ## 🧠 经验回流（Feed）
 
 项目收尾时，把经验写回全局种子库，新项目自动继承：

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updatedAt": "2026-08-16",
-  "count": 33,
+  "count": 34,
   "skills": [
     {
       "name": "advise-project-approach",
@@ -258,6 +258,14 @@
       "tags": [],
       "source": "",
       "path": "wdx/SKILL.md"
+    },
+    {
+      "name": "wdx-evolve",
+      "description": "技能/流程自进化。当某个技能不灵、效果差、或出现可复用经验时调用——诊断 → 改进 → 重跑验证 → 提交。系统自我升级的引擎。",
+      "whenToUse": "",
+      "tags": [],
+      "source": "",
+      "path": "wdx-evolve/SKILL.md"
     },
     {
       "name": "wdx-init",
