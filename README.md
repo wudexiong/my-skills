@@ -27,6 +27,15 @@
 node scripts/reindex.mjs
 ```
 
+## 命令（自同步脚手架）
+
+| 命令 | 作用 |
+|---|---|
+| `node scripts/skills-update.mjs` | 一键更新技能库：git pull → 重建索引 → 校验 junction → 显示版本（所有项目自动同步） |
+| `node scripts/init-project.mjs <名> [--skills a,b] [--public]` | 一键创建新项目：自更新模板 → AGENTS.md 指针 → git init → 可选装技能/gh 建仓 |
+
+> 自同步原理：技能本体走全局 junction（pull 即全项目生效），项目 AGENTS.md 是指针（永不漂移），更新永远发生在全局。
+
 ## 使用方式
 
 ### 方式一：官方 CLI（推荐，标准流程）
